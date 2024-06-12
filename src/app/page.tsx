@@ -12,7 +12,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-4 flex-wrap md:w-[32rem] max-w-[32rem]">
           <h1 className="text-7xl font-semibold">Basil</h1>
-          <p className="text-4xl text-[#665f27]">500 the most useful mminimalistic icons for your design in 9 categories</p>
+          <p className="text-4xl text-[#665f27]">500 the most useful minimalistic icons for your design in 9 categories</p>
         </div>
         <div className="flex md:w-[32rem] w-full max-w-[32rem] flex-wrap">
           <p className="text-5xl font-semibold">Free Icons</p>
