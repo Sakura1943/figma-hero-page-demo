@@ -4,8 +4,9 @@
 
 [Basil Icons Figma](https://www.figma.com/community/file/931906394678748246/basil-icons)
 
-[Basil Icons](https://craftwork.design/downloads/basil/)
+[Basil Icons图标](https://craftwork.design/downloads/basil/)
 
+[Source Code Pro字体](https://github.com/adobe-fonts/source-code-pro)
 
 ## 运行
 
