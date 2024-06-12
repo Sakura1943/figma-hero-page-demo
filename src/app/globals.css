@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'SourceCodePro';
+  src: url("/fonts/SourceCodePro-Medium.ttf.woff2");
+}
+
+:root {
+  font-family: 'SourceCodePro';
+}
+
+@media (min-width: 768px) {
+  #box {
+    transform: rotate(15deg) translate(-2rem,0rem)
+  }
+}
