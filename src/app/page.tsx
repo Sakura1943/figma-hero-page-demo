@@ -28,7 +28,21 @@ export default function Home() {
           </div>
           <div className="flex flex-row items-center gap-4 flex-wrap md:w-[40rem] max-w-[40rem]">
             {
+              solidIcons.map((icon) => (
+                <Image src={`icons/Solid/${icon}`} key={icon} alt="icon" width="45" height="45" className="select-none" />
+              ))
+            }
+          </div>
+          <div className="flex flex-row items-center gap-4 flex-wrap md:w-[40rem] max-w-[40rem]">
+            {
               outlineIcons.map((icon) => (
+                <Image src={`icons/Outline/${icon}`} key={icon} alt="icon" width="45" height="45" className="select-none" />
+              ))
+            }
+          </div>
+          <div className="flex flex-row items-center gap-4 flex-wrap md:w-[40rem] max-w-[40rem]">
+            {
+              outlineIcons2.map(icon => (
                 <Image src={`icons/Outline/${icon}`} key={icon} alt="icon" width="45" height="45" className="select-none" />
               ))
             }
