@@ -21,8 +21,8 @@ export default function Home() {
         <div className="flex flex-col gap-16 md:w-auto w-full justify-center items-center md:p-0 p-4" id="box">
           <div className="flex flex-row items-center gap-4 flex-wrap md:w-[40rem] max-w-[40rem]">
             {
-              solidIcons.map((icon) => (
-                <Image src={`icons/Solid/${icon}`} key={icon} alt="icon" width="45" height="45" className="select-none" />
+              outlineIcons2.map(icon => (
+                <Image src={`icons/Outline/${icon}`} key={icon} alt="icon" width="45" height="45" className="select-none" />
               ))
             }
           </div>
@@ -49,8 +49,8 @@ export default function Home() {
           </div>
           <div className="flex flex-row items-center gap-4 flex-wrap md:w-[40rem] max-w-[40rem]">
             {
-              outlineIcons2.map(icon => (
-                <Image src={`icons/Outline/${icon}`} key={icon} alt="icon" width="45" height="45" className="select-none" />
+              solidIcons.map((icon) => (
+                <Image src={`icons/Solid/${icon}`} key={icon} alt="icon" width="45" height="45" className="select-none" />
               ))
             }
           </div>
